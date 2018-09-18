@@ -1,10 +1,10 @@
+from cart.models import Item, Cart
+
 from cart import models
 from django.test import TestCase, RequestFactory, Client
-from models import Cart, Item
 from django.contrib.auth.models import User, AnonymousUser
 import datetime
 from decimal import Decimal
-from cart import Cart
 
 class CartAndItemModelsTestCase(TestCase):
 
